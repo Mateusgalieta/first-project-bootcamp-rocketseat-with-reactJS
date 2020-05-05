@@ -5,6 +5,8 @@ interface RepositoryParams {
     repository: string;
 }
 
+import { Header } from './styles';
+
 const Repository: React.FC = () => {
     const { params } = useRouteMatch<RepositoryParams>();
 
